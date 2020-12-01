@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Montserrat Thin';
+	src: url('../fonts/montserrat_thin.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/montserrat_thin.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/montserrat_thin.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/montserrat_thin.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/montserrat_thin.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/montserrat_thin.svg#montserrat_thin') format('svg'); /* Chrome < 4, Legacy iOS */
+}
