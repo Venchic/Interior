@@ -14,12 +14,15 @@ body {
     color: #212529;
     text-align: left;
     background-color: #fff;
-    max-width: 1366px;
+    //max-width: 1366px;
     margin: 0 auto;
 }
 
 .container {
-    max-width: 1170px;
+    /*max-width: 1170px;*/
+    display: flex;
+    max-width: 1366px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 98px;
 }
@@ -30,14 +33,19 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-end;
-    align-self: flex-end;
+
+
 }
+
 
 .logo {
     width: 184px;
+    margin-right: 359px;
 }
 
-.navbar {}
+.navbar {
+    flex-grow: 1;
+}
 
 .navbar ul {
     display: flex;
