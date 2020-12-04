@@ -1,10 +1,13 @@
-html {
+* {
     margin: 0;
     padding: 0;
 }
 
+@import url('fonts/Montserrat:wght@100;300;700&display=swap');
+
+/*100 - thin, 300  - light, 700 - bold*/
 body {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;
@@ -18,6 +21,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0 98px;
 }
 
 .header {
@@ -26,6 +30,50 @@ body {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-end;
+    align-self: flex-end;
+}
+
+.logo {
+    width: 184px;
+}
+
+.navbar {}
+
+.navbar ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    align-self: flex-end;
+
+}
+
+.navbar li {
+    display: block;
+    list-style: none;
+    margin-left: 5px;
+    padding-bottom: 13px;
+    padding-left: 5px;
+    padding-right: 20px;
+
+}
+
+.navbar a {
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    text-align: center;
+    margin: 0 5px;
+    border-bottom: 3px solid transparent;
+}
+
+.navbar li:hover {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 11px;
+    color: #212121;
+    border-bottom: 3px solid #212121;
 }
 
 .banner {
