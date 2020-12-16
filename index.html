@@ -6,23 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
-    <header class="header">
+    <div class="container">
+        <div class="slider">
+            <header class="header">
+                <a href="#" class="logo"><img src="img/logo.png" alt="INTERIOR"></a>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active">home</a></li>
+                    <li><a href="#">products</a></li>
+                    <li><a href="#">history</a></li>
+                    <li><a href="#">showroom</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li>
+                        <a href="#">
+                            <img src="img/search.svg" alt="pictures">
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            <div class="slide-text">
+                <h3>trending</h3>
+                <h2>Fishnet Chair</h2>
+                <p>Seat and back with upholstery made of cold cure foam. Steel frame, available in matt powder-coated black
+                    or highly polished chrome.</p>
+                <a href="#">Order Us&nbsp;
+                    <img src="img/arrow.svg" alt="›">
+                </a>
+            </div>
+            <div class="pagination">
+                <a href="#" class="circle"></a>
+                <a href="#" class="circle circle-active"></a>
+                <a href="#" class="circle"></a>
+            </div>
+        </div>
+
+        <!--   <header class="header">
         <section class="container">
             <section class="logo">
-                <a href="#"><img src="img/logo.png" alt="INTERIOR"></a>
+
             </section>
             <section>
                 <nav class="navbar">
-                    <ul>
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="">products</a></li>
-                        <li><a href="">history</a></li>
-                        <li><a href="">showroom</a></li>
-                        <li><a href="">contact</a></li>
-                    </ul>
+
                 </nav>
             </section>
             <section class="search">
@@ -34,37 +63,46 @@
         <section class="container">
 
         </section>
-    </section>
-    <main class="main">
+    </section>-->
+        <main class="main">
 
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="row-navbar-bottom">
-                <div class="row-navbar-item">
-                    <h2>contact us</h2>
-                    <span>132A Bridge Road Richmond VIC Australia.</span>
-                    <span>Talk to us on 1300 132 <a href="mailto:info@interior.com">info@interior.com</a></span>
-                </div>
-                <div class="row-navbar-item">
-                    <h2>useful information</h2>
-                    <nav class="useful-nav">
-                        <ul>
-                            <li>sales terms</li>
-                            <li>customer care</li>
-                            <li>delivery</li>
-                        </ul>
-                        <ul>
-                            <li>architect accounts</li>
-                            <li>careers</li>
-                            <li>exchanges & returns</li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="row-navbar-item">
-                    <h2>let's stay in touch!</h2>
-                    <span>Suscribe to know about our latest news, products and special offers just for suscribers.</span>
-                    <input type="text" placeholder="your email address">
+        </main>
+        <footer class="footer">
+            <div class="row-navbar">
+                <div class="row-navbar-bottom">
+                    <div class=" left-item-navbar">
+                        <h2>contact us</h2>
+                        <div class="body-navbar-item">
+                            <p>132A Bridge Road Richmond VIC Australia.</p><br>
+                            <p>Talk to us on 1300 132 </p><a href="mailto:info@interior.com">info@interior.com</a>
+                        </div>
+                    </div>
+                    <div class="center-item-navbar">
+                        <h2>useful information</h2>
+                        <nav class="useful-nav">
+                            <ul>
+                                <li><a href="#">sales terms</a></li>
+                                <li><a href="#">customer care</a></li>
+                                <li><a href="#">delivery</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">architect accounts</a></li>
+                                <li><a href="#">careers</a></li>
+                                <li><a href="#">exchanges & returns</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="right-item-navbar">
+                        <h2>let's stay in touch!</h2>
+                        <p>Suscribe to know about our latest news, products and special offers just for suscribers.</p>
+                        <div class="email">
+                            <form action="#" class="email">
+                                <input type="email" placeholder="your email address">
+                                <button type="submit">
+                                    <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row-copy">
@@ -72,14 +110,23 @@
                     <span>&copy; Copyright - INTERIOR 2016. All Rights Reserved.</span>
                 </div>
                 <div class="social-item">
-
+                    <a href="#" class="icon-social">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="icon-social">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="icon-social">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                    <a href="#" class="icon-social">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
                 </div>
                 <div class="policy-item">
                     <span><a href="#">Terms & Conditions</a> / <a href="#">Privacy policy & Cookies</a></span>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
-
-</html>
+        </footer>
+    </div>
+</body></html>
