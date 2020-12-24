@@ -669,6 +669,11 @@ body {
     color: #212121;
 }
 
+.body-navbar-item a {
+    color: #212121;
+    text-decoration: none;
+}
+
 .left-item-navbar {
     flex-basis: 200px;
     flex-grow: 1;
@@ -849,23 +854,11 @@ body {
     background-color: #ffffff;
     border: 1px solid #9c9c9c;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-}
 
-.contact-item h3 {
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #6c6c6c;
-}
-
-.contact-item p {
-    color: #212121;
-}
-
-.contact-item a {
-    color: #212121;
-    text-decoration: none
 }
 
 .contact-item h2 {
@@ -874,7 +867,35 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     color: #212121;
+    margin-top: 35px;
 }
+
+.contact-item h3 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6c6c6c;
+    margin-top: 20px;
+}
+
+.contact-item p {
+    color: #212121;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.contact-item > span > p {
+    font-weight: 300;
+}
+
+.contact-item a {
+    color: #212121;
+    text-decoration: none
+}
+
+
 
 .icon-location {
     font-size: 48px;
